@@ -1,6 +1,8 @@
 # GRAAD
 CSC GRAAD КСК ГРААД (комплексная система контроля 2010-2012 гг., микропрограмма GRAAD 2008-2010 гг.)
 
+Прошивка: AXIS, ASUS. АППАРАТНО МОДИФИЦИРОВАННЫЙ WI-FI РОУТЕР ASUS WL-500 GP V2.
+
 Added RTC support for the WL-HDD/WL-700g boards
 Fixed a bug causing lockups during reboot
 SNMP: uptime values no longer depends on the system time
