@@ -3,7 +3,8 @@ CSC GRAAD КСК ГРААД (комплексная система контро�
 
 Прошивка: AXIS, ASUS. АППАРАТНО МОДИФИЦИРОВАННЫЙ WI-FI РОУТЕР ASUS WL-500 GP V2.
 
-<img alt="" border="0" data-original-height="640" data-original-width="1400" height="400" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/GRAAD1080.png" style="font-family: &quot;times new roman&quot;;" title="" width="400" /></div>
+
+<a href="https://cscgraad.blogspot.com/p/monocle.html" style="background-color: white; font-size: medium; font-weight: 400;"><img border="0" data-original-height="900" data-original-width="900" height="650" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/GRAAD1080.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a>
 
 Added RTC support for the WL-HDD/WL-700g boards
 Fixed a bug causing lockups during reboot
@@ -43,5 +44,8 @@ Added /usr/local/sbin/pre-mount to be called before automount (suitable to manua
 Added Enable USB Storage selection to the System Setup - Services page to enable usb storage modules to load automatically
 Added filesystem type autodetection to automount portition
 
-<img alt="" border="0" data-original-height="640" data-original-width="1400" height="400" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/axisasus.png" style="font-family: &quot;times new roman&quot;;" title="" width="400" /></div>
+
+
+<a href="https://cscgraad.blogspot.com/p/monocle.html" style="background-color: white; font-size: medium; font-weight: 400;"><img border="0" data-original-height="900" data-original-width="1600" height="350" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/axisasus.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a>
+
 
