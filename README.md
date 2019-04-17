@@ -42,3 +42,6 @@ Samba/FTP/NFS relative paths are against /tmp/harddisk
 Added /usr/local/sbin/pre-mount to be called before automount (suitable to manual mounts, disk checks, etc).
 Added Enable USB Storage selection to the System Setup - Services page to enable usb storage modules to load automatically
 Added filesystem type autodetection to automount portition
+
+<img alt="" border="0" data-original-height="640" data-original-width="1400" height="400" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/axisasus.png" style="font-family: &quot;times new roman&quot;;" title="" width="400" /></div>
+
