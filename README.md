@@ -3,6 +3,8 @@ CSC GRAAD КСК ГРААД (комплексная система контро�
 
 Прошивка: AXIS, ASUS. АППАРАТНО МОДИФИЦИРОВАННЫЙ WI-FI РОУТЕР ASUS WL-500 GP V2.
 
+<img alt="" border="0" data-original-height="640" data-original-width="1400" height="400" src="https://emiia.files.wordpress.com/2019/04/d09ad0a1d09a-d093d0a0d090d090d094.png" style="font-family: &quot;times new roman&quot;;" title="" width="400" /></div>
+
 Added RTC support for the WL-HDD/WL-700g boards
 Fixed a bug causing lockups during reboot
 SNMP: uptime values no longer depends on the system time
