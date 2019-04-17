@@ -46,6 +46,6 @@ Added filesystem type autodetection to automount portition
 
 
 
-<a href="https://cscgraad.blogspot.com/p/monocle.html" style="background-color: white; font-size: medium; font-weight: 400;"><img border="0" data-original-height="900" data-original-width="1600" height="350" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/axisasus.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a>
+<a href="https://cscgraad.blogspot.com/p/monocle.html" style="background-color: white; font-size: medium; font-weight: 400;"><img border="0" data-original-height="900" data-original-width="1600" height="320" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/axisasus.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a>
 
 
