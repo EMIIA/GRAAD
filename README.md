@@ -4,6 +4,11 @@ CSC GRAAD КСК ГРААД (комплексная система контро�
 Прошивка: AXIS, ASUS. АППАРАТНО МОДИФИЦИРОВАННЫЙ WI-FI РОУТЕР ASUS WL-500 GP V2.
 
 
+https://cscgraad.blogspot.com/p/monocle.html
+
+
+
+
 <a href="https://cscgraad.blogspot.com/p/monocle.html" style="background-color: white; font-size: medium; font-weight: 400;"><img border="0" data-original-height="900" data-original-width="900" height="650" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/GRAAD1080.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a>
 
 
