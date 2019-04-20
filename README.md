@@ -6,8 +6,7 @@ CSC GRAAD КСК ГРААД (комплексная система контро�
 
 <a href="https://cscgraad.blogspot.com/p/monocle.html" style="background-color: white; font-size: medium; font-weight: 400;"><img border="0" data-original-height="900" data-original-width="900" height="650" src="https://raw.githubusercontent.com/EMIIA/GRAAD/master/GRAAD1080.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a>
 
-Added RTC support for the WL-HDD/WL-700g boards
-Fixed a bug causing lockups during reboot
+
 SNMP: uptime values no longer depends on the system time
 UPnP: it's now possible to select interface for which interface address reported back to clients (IP Config - Misc), port-forwards are working just like other virtual servers
 UPnP: additionally protected by built-in firewall in case when multicast forwards enabled
