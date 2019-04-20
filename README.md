@@ -30,18 +30,13 @@ Samba: Windows Vista support, W2K3SP1 compatibility
 Added utf8 as default encoding of the hard/flash drive (enabled by default).
 NFS: fixed some /etc/exports problems
 Kernel modules are now stored in single directory
-Added ftdi_sio usb to serial converter module
-Some other modules are now available as separate download (modules-1.9.2.7-9.tgz), includes HID, input, Bluetooth. Unpack them to /opt
-Added modprobe, which is looking for /opt/lib/modules/... by default.
+Added ftdi_sio usb to serial converter module.
 USB updates
 VLAN support fixes, updated robocfg
-dropbear 0.50 (credits to lly), enabled inetd support
-busybox_httpd fixes: new cgi environment vars (HTTP_HOST, CGI_*)
-Changed a way how automount works: everything is mounted to /tmp/mnt now, while /tmp/harddisk is just a symbolic link to first partition
-Samba/FTP/NFS relative paths are against /tmp/harddisk
-Added /usr/local/sbin/pre-mount to be called before automount (suitable to manual mounts, disk checks, etc).
 Added Enable USB Storage selection to the System Setup - Services page to enable usb storage modules to load automatically
 Added filesystem type autodetection to automount portition
+
+
 
 
 
