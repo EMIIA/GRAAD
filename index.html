@@ -1,205 +1,234 @@
 <!doctype html>
-
 <html>
-  <head>
- 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <link rel="icon" href="https://emiia.github.io/emiia.ico" type="image/x-icon">
+    <title>КСК ГРААД | ЭМИИА</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
- <title>КСК ГРААД | ЭМИИА</title>
- 
- 
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            padding: 20px;
+        }
 
+        /* Меню — без изменений, только добавил z-index и position */
+        .menu ul {
+            margin: 0;
+            list-style: none;
+            font-family: Arial;
+            padding-left: 3px;
+            display: none;
+            background-color: #fff;
+            min-width: 250px;
+            border-radius: 10px;
+            border: 3px solid #ffffff;
+            line-height: 10px;
+            overflow: none;
+            box-shadow: 10px 10px 1000px 2500px rgba(255,255,255,1);
+            z-index: 1000;
+        }
 
+        .menu {
+            display: inline-block;
+            position: fixed;
+            left: 20px;
+            top: 4%;
+            z-index: 1001;
+        }
 
- 
-  </head>
-  <body>
-  
-  
-  </body>
-</html>
+        .menu .title {
+            font-size: 40px;
+            cursor: pointer;
+        }
 
-  
-  <style>
-    .menu ul {
-      margin: 0;
-      list-style: none;
-font-family: Arial;
-      padding-left: 3px;
-      display: none;
-  position: auto;
-    background-color: #fff;
-    min-width: 250px;
-border-radius:10px; 
-border: 3px solid #ffffff;
- line-height: 10px;
-    overflow: none;
-    box-shadow: 10px 10px 1000px 2500px rgba(255,255,255,255.255);
-    z-index: 1;
-    }
-.menu {
-    
-display: inline-block;
-    position: fixed; /* Фиксированное положение */
-    left: 20px; /* Расстояние от правого края окна браузера */
-    top: 4%; /* Расстояние сверху */
-}
-    .menu .title {
-      font-size: 40px;
-      cursor: pointer;
-    }
-    .menu .title::before {
-      content: url(https://emiia.github.io/1/emiia11.svg);
-      font-size: 90%;
-font-family: Times;
-      color: #4A99D9;
-          line-height: 60%;
-   } 
-   p {
-    line-height: 1.5;
-    }
-    .menu.open .title::before {
-      content: url(https://emiia.github.io/1/emiia12.svg);
-    }
-    .menu.open ul {
-      display: block;
-    }
-  </style>
+        .menu .title::before {
+            content: url(https://emiia.github.io/1/emiia11.svg);
+            font-size: 90%;
+            font-family: Times;
+            color: #4A99D9;
+            line-height: 60%;
+        }
 
+        .menu.open .title::before {
+            content: url(https://emiia.github.io/1/emiia12.svg);
+        }
 
+        .menu.open ul {
+            display: block;
+        }
 
-  <div id="sweeties" class="menu" class="menu-ul">
+        p {
+            line-height: 1.5;
+        }
+
+        .buttond a {
+            display: inline-block;
+            font-size: 12px;
+            text-decoration: none;
+            padding: 8px;
+            color: #000000;
+            background-color: #ffffff;
+            border-radius: 5px;
+            border: 0px solid #000000;
+        }
+
+        /* Контент */
+        .logo-center {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .logo-center img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .title-main {
+            font-family: Arial, sans-serif;
+            font-size: 28px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .main-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .main-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .github-link {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .github-link img {
+            max-width: 80px;
+            height: auto;
+        }
+
+        .description {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: left;
+            max-width: 100%;
+            word-wrap: break-word;
+        }
+
+        .footer {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        /* Мобильная адаптация — только контента, меню не трогаем */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .title-main {
+                font-size: 22px;
+            }
+
+            .description {
+                font-size: 14px;
+            }
+
+            .buttond a {
+                font-size: 11px;
+                padding: 6px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title-main {
+                font-size: 20px;
+            }
+
+            .description {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="sweeties" class="menu">
     <span class="title"></span>
     <ul>
-    
+        <br/><br/>
+        <div style="text-align: left;">
+            <img alt="ЭМИИА" src="https://raw.githubusercontent.com/EMIIA/www.emiia.ru/master/relise/logo_rus.svg" style="max-width: 100%; height: auto;" />
+        </div>
+        <br/><br/><br/>
 
+        <p class="buttond"><a href="https://www.emiia.ru/" target="_self">ГЛАВНАЯ</a></p>
+        <p class="buttond"><a href="https://www.emiia.ru/p/information-economy.html" target="_self">О НАС/КОНТАКТЫ</a></p>
+        <p class="buttond"><a href="https://www.emiia.ru/p/emiia.html" target="_self">СМИ О ПРОЕКТЕ</a></p>
+        <p class="buttond"><a href="https://www.emiia.ru/p/ai.html" target="_self">ПРОЕКТЫ</a></p>
+        <p class="buttond"><a href="https://www.emiia.ru/p/b2b.html" target="_self">SMART КОНТРОЛЛЕРЫ</a></p>
+        <p class="buttond"><a href="https://www.emiia.ru/p/emonocle.html" target="_self">SMART ПАНЕЛИ</a></p>
+        <p class="buttond"><a href="https://www.emiia.ru/p/radio.html" target="_self">SMART МОДУЛИ</a></p>
+        <p class="buttond"><a href="https://emiia.github.io/1/support.html" target="_self">ФОРМА ОБРАТНОЙ СВЯЗИ</a></p>
+        <p class="buttond"><a href="https://emiia.github.io/1/preorder.html" target="_self">ПРЕДЗАКАЗ</a></p>
 
+        <div class="buttond" style="text-align: left;">
+            <a href="https://emiia.github.io/1/login.html" target="_self">ВХОД | РЕГИСТРАЦИЯ-ТЕСТОВЫЙ АККАУНТ</a>
+        </div>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </ul>
+</div>
 
-<br/>
-<br/>
-<div style="text-align: left;">
-&#160;<img alt="ЭМИИА" src="https://emiia.github.io/1/monocle12.svg" style="font-family: &quot;times new roman&quot;;" title="" /></div>
-<br/>
-<br/>
-<br/>
+<div class="logo-center">
+    <a href="https://www.emiia.ru">
+        <img alt="EMIIA" src="https://raw.githubusercontent.com/EMIIA/www.emiia.ru/master/relise/logo_rus.svg" title="EMIIA" />
+    </a>
+</div>
 
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#000000; background-color:#ffffff; border-radius:5px; border: 0px solid #000000;">ГЛАВНАЯ</a></p>
-	    
-	    
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/p/information-economy.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#000000; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">О НАС/КОНТАКТЫ</a></p>
+<div class="title-main">КСК ГРААД</div>
 
+<div class="main-image">
+    <a href="https://emiia.github.io/GRAAD/GRAAD10802.png">
+        <img src="https://emiia.github.io/GRAAD/GRAAD10802.png" alt="GRAAD" />
+    </a>
+</div>
 
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/p/emiia.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#000000; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">СМИ О ПРОЕКТЕ</a></p>
+<div class="github-link">
+    <a href="https://github.com/EMIIA/GRAAD">
+        <img alt="EMIIA GitHub" src="https://emiia.github.io/emiia13.svg" title="EMIIA" />
+    </a>
+</div>
 
-	    
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/p/ai.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#000000; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">ПРОЕКТЫ</a></p>
+<div class="description">
+    <p>
+        Технология машинного радиозрения (MRV), исследуемая и коммерчески эксплуатируемая в рамках проекта «КСК ГРААД» (до 2020 года — действующий бизнес), была выделена в отдельное направление для дальнейших исследований и коммерциализации под брендом EMIIA.AI (EMIIA.AI MRV). Поскольку «чистый» MRV не позволяет достичь требуемой точности, принято решение взять его за базу и за счёт пассивных субтехнологий RTLS в гибридном варианте обеспечить Precision Positioning (1–2 мм) и High-Precision Navigation в пределах 1–2 см по осям X, Y, Z.
+    </p>
+</div>
 
-	    
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/p/b2b.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#4A99D9; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">SMART КОНТРОЛЛЕРЫ</a></p>
+<div class="footer">
+    © 2019 ЭМИИА
+</div>
 
-
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/p/emonocle.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#4A99D9; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">SMART ПАНЕЛИ</a></p>
-
-	    
-<p class="buttond"  style="text-align:"><a href="https://www.emiia.ru/p/radio.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#4A99D9; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">SMART МОДУЛИ</a></p>
-
-	    
-<p class="buttond"  style="text-align:"><a href="https://emiia.github.io/1/support.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#000000; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">ФОРМА ОБРАТНОЙ СВЯЗИ</a></p>
-
-	    
-<p class="buttond"  style="text-align:"><a href="https://emiia.github.io/1/preorder.html" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#4A99D9; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">ПРЕДЗАКАЗ</a></p>
-
-	    
-<div class="buttond" style="text-align: left;">
-<a href="https://emiia.github.io/1/login.html" style="background-color: white; border-radius: 3px; border: 0px solid #000000; color: #4A99D9 cursor: pointer; font-size: 8px; padding: 4px; color:#000000; text-decoration: none;" target="_self">&#160;&#160;ВХОД | РЕГИСТРАЦИЯ-ТЕСТОВЫЙ АККАУНТ</a>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-    </div></ul>
-
-  </div>
-
-  <script>
+<script>
     var menuElem = document.getElementById('sweeties');
     var titleElem = menuElem.querySelector('.title');
     titleElem.onclick = function() {
-      menuElem.classList.toggle('open');
+        menuElem.classList.toggle('open');
     };
-  </script>
+</script>
 
-
-<!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-
-
-  
-	  <br/>
-<br/>
-
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://www.emiia.ru"><img alt="EMIIA" border="0" height="50" width="150" src="https://emiia.github.io/1/monocle12.svg" title="EMIIA" /></a></div>
-
-<br/>
-<br/>
-
-
-<div dir="ltr" style="text-align: center;" trbidi="on">
-<div style="text-align: center;">
-<span style="font-family: &quot;arial&quot; , &quot;ariala&quot; , arial; font-size: x-large;">КСК ГРААД</span></div>
-
-<br/>
-<br/>
-    
-
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://emiia.github.io/GRAAD/GRAAD10802.png" ><img  src="https://emiia.github.io/GRAAD/GRAAD10802.png" style="font-family: &quot;times new roman&quot;;" width="640" /></a></div>
-<div class="separator" style="background-color: white; clear: both; font-size: 18.72px; text-align: center;">
-
-<br/>
-
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://github.com/EMIIA/GRAAD"><img alt="EMIIA GitHub" border="0" data-original-height="140" data-original-width="280" height="67" src="https://emiia.github.io/emiia13.svg" title="EMIIA" width="80" /></a></div>
-            
-
-<br/>
-<br/>
-
-
-<div dir="ltr" style="text-align: center;" trbidi="on">
-<span style="font-family: Arial; font-size: small;">
-CSC GRAAD КСК ГРААД (комплексная система контроля 2010-2015 гг., микропрограмма GRAAD 2008-2010 гг.). <a href="https://www.emiia.ru/p/confidentiality.html"><span style="color: black;"></span></a></span></div>	
-	
-
-</div>
-
-<br/>
-<br/>
-<br/>
-
-<br/>
-<br/>
-<br/>
-
-<br/>
-<br/>
-<br/>
-
-<br/>
-<br/>
-<br/>
-
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<span style="font-family: Arial; font-size: x-small;">© 2019 ЭМИИА<a href="https://www.emiia.ru/p/confidentiality.html"><span style="color: black;"></span></a></span></div>
+</body>
+</html>
